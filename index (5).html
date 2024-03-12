@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body class="body">
+<center>
+    <h1>Collage Web App</h1>
+    <hr>
+    <h4>As soon as the popup appears, please select allow. After you've spoken a command</h4>
+    <h3><b>Say "selfie" to Take the selfies, you are going to use to make you Collage</b></h3>
+    <button class="btn btn-info" onclick="save()">Start</button>
+    <h4><b>Press the start button</b></h4>
+    <label>Your webcam :</label>
+    <div id="camera">
+    </div>
+    <label>All selfies will be displayed here</label>
+    <div id="resultshow">
+        <div class="result1" class="column">
+            <img src="camera.jpg" width="600" height="400" style="border-color: aqua; border-style: dotted;" id="camera_1">
+        </div>
+        <div id="result2" class="column">
+            <img src="mountain.jpg" width="600" height="400" style="border-color: aqua; border-style: dotted;" id="camera_2">
+        </div>
+        <div id="result3" class="column">
+            <img src="city.jpg" width="600" height="400" style="border-color: aqua; border-style: dotted;" id="camera_3">
+        </div>
+    </div>
+</center>
+</body>
+<div class="copy_right_footer">
+    Created by Blake Fernando the 6/03/2025
+</div>
+</html>

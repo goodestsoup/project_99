@@ -1,0 +1,49 @@
+.copy_right_footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    color: red;
+    background-color: white;
+}
+
+.body {
+    background-color: grey;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: unset;
+    font-weight: bold;
+}
+
+h4{
+    color:red;
+}
+
+#camera_1:hover {
+    width: 700px;
+    border-radius: 140px;
+}
+
+#camera_2:hover {
+    width: 700px;
+    border-radius: 140px;
+}
+
+#camera_3:hover {
+    width: 800px;
+    border-radius: 140px;
+}
+
+.column{
+    display: inline;
+    padding: 10px;
+}
+
+img{
+    width: 40%;
+    padding:10px;
+    box-shadow: 0 6px 8px 0 rgba(2,2,2,0.2);
+}
+
